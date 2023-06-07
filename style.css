@@ -426,3 +426,97 @@ body {
   font-weight: 700;
   color: #F78434;
 }
+
+.page__main {
+}
+.main {
+}
+.main__container {
+  position: relative;
+  padding-bottom: 134px;
+}
+
+.main__container img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main__content {
+}
+
+.main__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 146%;
+  letter-spacing: 0.8px;
+  color: #323232;
+  max-width: 674px;
+  padding-top: 127px;
+  margin: 0px;
+  z-index: 1;
+}
+
+.main__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  letter-spacing: 1.15px;
+  color: #323232;
+  max-width: 467px;
+  margin-top: 25px;
+}
+
+.main__text p {
+  margin: 0;
+}
+
+.main__form {
+  margin-top: 42px;
+  display: flex;
+}
+
+.main__form label {
+  position: relative;
+}
+.main__input {
+  background: #FFFFFF;
+  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 29px;
+  width: 459px;
+  height: 58px;
+  padding: 0px 75px;
+}
+
+.main__input:focus {
+  outline: none;
+}
+
+.main__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #BBBBBB;
+}
+
+.main__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 29px;
+  padding: 18px 37px;
+}
+.button_orange {
+  background: #F78434;
+}
