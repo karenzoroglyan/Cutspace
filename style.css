@@ -540,3 +540,50 @@ body {
 }
 .logos__item {
 }
+
+.page__provide {
+}
+.provide {
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+}
+
+.provide__img {
+}
+.provide__content {
+}
+.content-provide {
+  max-width: 374px;
+}
+.content-provide__title {
+  padding-top: 68px;
+  margin: 0px 0px 20px 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.8px;
+  color: #323232;
+}
+
+.content-provide__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+  color: #323232;
+  margin-bottom: 40px;
+}
+
+.content-provide__text p {
+  margin: 0;
+}
+
+.content-provide__button {
+}
+.button {
+}
+.button_orange {
+}
