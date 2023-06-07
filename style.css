@@ -520,3 +520,23 @@ body {
 .button_orange {
   background: #F78434;
 }
+
+.page__companies {
+}
+.companies {
+}
+.companies__container {
+  padding: 99px 0px;
+}
+.companies__logos {
+}
+.logos {
+}
+.logos__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 95px;
+}
+.logos__item {
+}
