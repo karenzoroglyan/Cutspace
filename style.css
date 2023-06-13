@@ -607,9 +607,82 @@ body {
 }
 
 .contacts-thanks__city_orange {
-  color: #F78434;
+  color: #f78434;
 }
 
 .contacts-thanks__city_blue {
-  color: #58BEBF;
+  color: #58bebf;
+}
+
+.experience {
+  background-color: #58bebf;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.experience__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 86px;
+  padding-bottom: 82px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials__logo {
+  margin-bottom: 15px;
+}
+
+.socials__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+  color: #323232;
+  margin-bottom: 40px;
+  max-width: 300px;
+}
+
+.icons-socials {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.columns-footer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 85px;
+}
+
+.column__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #323232;
+  margin-bottom: 18px;
+}
+
+.footer-list__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #323232;
+}
+
+.footer-list__item:not(:last-child) {
+  margin-bottom: 13px;
 }
